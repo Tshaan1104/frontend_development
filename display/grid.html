@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document11</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 200px auto;
+
+        /*repeat(2, 200px); */
+
+        /*auto 300px minmax(500px, 800px); */
+        grid-template-rows: 300px auto; /*fits it only*/
+        /* 200px minmax(200px, 400px); */
+        grid-auto-columns: 300px;
+        grid-auto-rows: 300px;
+        gap: 10px;
+      }
+      p {
+        overflow-x: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p style="background-color: aqua">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae non
+        eligendi nulla laboriosam perspiciatis! Nobis odit maxime perferendis
+        rem nihil unde doloribus quisquam illum, quo aspernatur hic autem eum
+        possimus, placeat aut ut et libero repellendus corporis quas!
+      </p>
+      <p style="background-color: greenyellow">
+        quasi quaerat incidunt est molestias officiis neque cupiditate, esse
+        fugit earum laboriosam fugiat perferendis enim quisquam. Tenetur, rem
+        eveniet voluptas modi atque eaque nulla adipisci, debitis, minima
+        perferendis harum nihil illo repudiandae. Similique?
+      </p>
+      <p>
+        asperiores, incidunt alias dignissimos quaerat quae quasi officia,
+        aliquid ipsam inventore unde. Eaque, unde quasi. Consectetur, corrupti.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur officiis eius quia ex
+        consequatur vitae suscipit pariatur quos. Assumenda, dignissimos vero
+        tempore distinctio veritatis quidem voluptatem similique dolor saepe
+        illum, earum rerum nam excepturi sunt?
+      </p>
+      <p style="background-color: purple">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error earum
+        nulla, nesciunt, deserunt porro inventore, modi dolorem quam soluta
+        dignissimos rem. Eaque fugit incidunt explicabo quidem atque. Mollitia
+        adipisci sequi corrupti nihil ipsam atque a expedita excepturi ducimus
+        enim, dolorum praesentium neque, aperiam in suscipit itaque ex id
+        incidunt veniam! Voluptas porro quaerat nesciunt molestias!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quos ex
+        dolorum beatae libero tempore consectetur quisquam accusamus ratione
+        quibusdam, eaque quam, accusantium fugit quis adipisci unde. Eos eum
+        assumenda ducimus animi esse.
+      </p>
+    </div>
+  </body>
+</html>
